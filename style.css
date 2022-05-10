@@ -1,0 +1,475 @@
+.nave{
+    display: flex;
+    padding:10px;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,.15);
+}
+.nave .nav2{
+    margin-top:20px;
+    margin-left: 700px;
+}
+
+.nave .imge{
+    width: 150px;
+    margin-left: 50px;
+   /* margin-top:20px;*/
+}
+.nave .imge img{
+    width:100%;
+}
+.nave .nav2 a{
+    padding:10px;
+    text-decoration:none;
+    font-size: 20px;
+
+}
+.nave .nav2 a:hover{
+    color:orange;
+    transition: all 1s ease;
+
+}
+.bgimg{
+    background-image: url("image.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+}
+.bgimg .para h2{
+    font-size:80px;
+}
+.bgimg  .para{
+    text-align:center;
+    font-size: 40px;
+    padding-top: 200px;
+    color:black;
+    font-weight: bold;
+}
+.bgimg  span{
+    font-size:20px;
+    color:orange;
+}
+.hope{
+    text-align: center;
+    color:black;
+    padding:10px;
+}
+ 
+
+
+.hey{
+    padding:10px;
+    font-size: 20px;
+    color:black;
+    border: 2px solid white;
+    border-color:black;
+    border-radius: 10px;
+    background-color:orange;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+.hope{
+    display:flex;
+
+}
+.one p{
+    text-decoration: none;
+}
+.one img{
+    width:300px;
+}
+.two img{
+    width:320px;
+    height:220px;
+}
+.three img{
+    width:300px;
+}
+.hope a{
+    color:orange;
+    font-size: 20px;
+}
+.hope .hala a{
+    padding:10px;
+    font-size: 20px;
+    color:black;
+    border: 2px solid white;
+    border-color:black;
+    border-radius: 10px;
+    background-color:orange;
+    text-decoration: none;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+.roj{
+    text-align: center;
+    color:black;
+}
+.jack a{
+    padding:10px;
+    text-align:center;
+    font-size: 20px;
+    color:black;
+    border: 2px solid white;
+    border-color:black;
+    border-radius: 10px;
+    background-color:orange;
+    text-decoration: none;
+    margin-bottom: 100px;
+    font-weight: bold;
+    width:100px;
+    margin-left:650px;
+}
+.one p:hover{
+    box-shadow: 0px 0px 0px rgb(0,0,.15);
+}
+
+.content h1{
+    text-align:center;
+}
+.content .container{
+    display:flex;
+}
+.content .container .list{
+    width:40%;
+    float:left;
+}
+.content .container .fun{
+    width:40%;
+    margin-left: 150px;
+}
+.content .container .fun img{
+    width:100%;
+    float:right;
+}
+.content .container .list li{
+    margin:10px;
+    padding:10px;
+    border-left:2px solid orange;
+    color:black;
+    text-align: left;
+    box-shadow:0px 3px 65px 0px rgba(0,0,0,.15);
+    font-size: 25px;
+    list-style: none;
+}
+
+.testi{
+    padding:10px;
+
+}
+.testi h2{
+    text-align: center;
+    color:black;
+
+}
+.testi .testi_container .carousel-inner{
+    background-color: white;
+    box-shadow:none;
+}
+.testi .testi_container{
+    margin-left:10%;
+    margin-right:10%;
+    text-align:center;
+}
+.testi .testi_container .item{
+    width:100%;
+    padding:20px;
+    background-color: white;
+}
+.testi .testi_container .item .itemimg{
+    width:100%;
+    height:250px;
+    overflow:hidden;
+    text-align: center;
+}
+.testi .testi_container .item .itemimg img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.ultra h2{
+    text-align: center;
+    color:black;
+
+}
+.ultra .contra{
+    display:flex;
+}
+.ultra .contra .vilo{
+    padding-left:100px;
+}
+.ultra .contra .vilo iframe{
+    border:10px solid orange;
+}
+.ultra .contra .vola{
+    margin:40px;
+}
+.ross{
+    background-image:url(mjolnir2.jpg);
+    background-size: cover;
+    border:10px solid orange;
+    margin:10px;
+}
+.ross h2{
+    text-align: center;
+    color:orange;
+    padding-top:20px;
+}
+.ross .forme{
+   text-align: center;
+   margin:10px;
+   padding:10px;
+}
+.ross .forme input{
+    padding:10px;
+    margin:10px;
+    width:40%;
+}
+.ross .forme textarea{
+    margin:10px;
+    width:10px;
+    width:40%;
+}
+.ross .forme button{
+    padding:10px;
+    margin:10px;
+    font-size: 20px;
+    color:black;
+    border: 2px solid white;
+    border-color:black;
+    border-radius: 10px;
+    background-color:orange;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+.ross .forme button:hover{
+    color:blue;
+    text-decoration: underline;
+}
+footer{
+    padding:50px;
+    background-color: grey;
+    border:10px solid orange;
+    margin:10px;
+}
+footer .imge img{
+    width: 150px;
+    background-color: grey;
+
+}
+footer .conto{
+    text-align: center;
+}
+footer .conto h3{
+    font-size:35px;
+}
+footer .conto a{
+    font-size:20px;
+    color:orange;
+    margin:10px;
+}
+footer .doc{
+    text-align: center;
+}
+footer .doc h3{
+    font-size:35px;
+}
+footer .doc a{
+    font-size:20px;
+    color:orange;
+    margin:10px;
+}
+footer .social{
+    text-align: center;
+}
+footer .social h3{
+    font-size:35px;
+}
+footer .social a{
+    font-size:20px;
+    color:orange;
+    margin:10px;
+}
+footer .contact{
+    text-align: center;
+}
+footer .contact h3{
+    font-size:35px;
+}
+footer .contact a{
+    font-size:20px;
+    color:orange;
+    margin:10px;
+}
+
+.about_content h2{
+    text-align: center;
+    color:orange;
+    text-transform: capitalize;
+}
+.about_content .abo{
+    display:flex;
+}
+.about_content .abo .about_image{
+    width:40%;
+    margin-left: 50px;
+    border:10px solid orange;
+    
+}
+.about_content .abo .about_image img{
+    width:100%;
+  
+}
+.about_content .abo .about_cow{
+    width:40%;
+    margin-left:50px;
+}
+.about_content .abo .about_cow p{
+    font-size: 20px;
+    margin-left: 50px;
+}
+.joo h2{
+    color:orange;
+    text-align: center;
+    text-transform:uppercase;
+}
+.joo .jef{
+    text-align:center;
+}
+
+.joo .jef iframe{
+    margin-top: 10px;
+    border:10px solid orange;
+
+}
+.joo .tex{
+    margin:10px;
+    padding:10px;
+}
+.joo .tex h3{
+    text-align: center;
+    font-weight: bold;
+}
+.yo{
+    color:orange;
+    text-align:center;
+    margin:40px;
+
+}
+.loger{
+
+    background-image:url(mjolnir2.jpg);
+    background-size: cover;
+    border:10px solid orange;
+    margin:10px;
+}
+.loger h2{
+    text-align: center;
+    color:orange;
+}
+.loger .loger_form{
+    text-align:center;
+
+}
+ .loger .loger_form .dol{
+    text-align: center;
+    color:orange;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.loger .loger_form input{
+    margin:10px;
+    width:40%;
+    padding:10px;
+}
+
+.loger .loger_form button{
+    padding:10px;
+    margin:10px;
+    font-size: 20px;
+    color:black;
+    border: 2px solid white;
+    border-color:black;
+    border-radius: 10px;
+    background-color:orange;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+.loger .loger_form button:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+.balls .om{
+    display:flex;
+}
+.balls h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align:center;
+    color:orange;
+}
+.balls .om .bal1{
+    width:40%;
+    margin-right:150px;
+    margin-top:20px;
+    margin-left:40px;
+    padding-left:40px;
+    padding-top:10px;
+}
+
+.balls .om .bal1 h3{
+    color:orange;
+    padding-left:60px;
+    padding-top:50px;
+}
+.balls .om .bal1 img{
+    width:100%;
+}
+
+.balls .om .bal2{
+    width:40%;
+    margin-right:150px;
+    margin-top:40px;
+    margin-right:40px;
+    padding-right: 80px;
+    padding-top: 10px;
+
+}
+.balls .om .bal2 img{
+    width:100%;
+    padding-top: 10px;
+}
+.balls .om .bal2 h3{
+    padding-top:50px;
+    color:orange;
+    padding-left:60px;
+    padding-bottom:10px;
+}
+.balls .om .bal3{
+    width:40%;
+    margin-right:150px;
+    margin-bottom:100px;
+    margin-right:40px;
+
+}
+.balls .om .bal3 h3{
+    color:orange;
+    padding-left:60px;
+}
+
+.balls .om .bal3 img{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+

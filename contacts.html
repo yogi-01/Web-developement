@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FIRSTPAGE | Contact US
+</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="dontstop.css">
+        <script src="https://kit.fontawesome.com/798f2cc382.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div class="nave navtop">
+            <div class="imge">   
+              <a href="index.html"> <img src="1stop.png"></a>
+            </div>
+
+    <div class="nav2">
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="contacts.html">Contact Us</a>
+        <a href="login.html">Login/Register</a>
+    </div>
+</div>
+
+<div class="joo">
+    <h2>Contact Us</h2>
+    <div class=jef>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7600.297927612081!2d83.31715912443495!3d17.73761890147823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39434e8e5cce43%3A0x4923da867e2c7bc5!2sMaddilapalem%2C%20Visakhapatnam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1626394785818!5m2!1sen!2sin" width="800" height="600" style="border: 10px;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="tex">
+        <h3>address: Bangalore, India</h3>
+        <h3> Mobile No:+91 787878787</h3>
+        <h3>Mail : Support@gmail.com</h3>
+    </div>
+
+</div>
+<div class="ross">
+    <h2>REVIEW</h2>
+    <div class="forme" method="post">
+      <form name="Sheet">
+        <input type="text" name="Name" placeholder="Name"><br>
+        <input type="email" name="Email" placeholder="Email ID"><br>
+        <input type="number" name="Number" placeholder="Phone NNumber"><br>
+        <textarea rows="5" cols="7" name="Review" placeholder="your review"></textarea><br>
+        <button type="submit">Submit</button>
+  
+      </form>
+    </div>
+  </div>
+  <br>
+
+
+  <footer>
+      <div class="imge">   
+          <img src="1stop.png">
+           </div>
+      <div class="conto">
+          <h3>Pages</h3>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="blogs.html">Blogs</a>
+          <a href="contacts.html">Contact Us</a>
+          <a href="login.html">Login/Register</a>
+      </div>
+      <div class="doc">
+        <h3>Documents</h3>
+        <a href="">Privacy Policy</a>|
+        <a href="">Terms of USe</a>|
+        <a href="">Refund Policy</a>
+      </div>
+      <div class="social">
+        <h3>Social</h3>
+      <a href="https://www.facebook.com/1Stopai-102490171820303/" target="_blank"><i class="fab fa-facebook-f"></i></i></a>
+      <a href="https://twitter.com/onestopai?lang=en" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/1stop.ai/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      </div>
+     <div class="contact">
+       <h3>Contact us</h3>
+       <a href="tel: +917995532979"><i class="fas fa-phone"></i></a>
+       <a href="mailto: support@stop.ai"><i class="far fa-envelope"></i></a>
+  
+     </div>
+     <hr>
+     <p>copyright &copy;2021 1stop.All rights reserved</p>
+  </footer>
+  
+  
+   <script>
+               const scriptURL = 'https://script.google.com/macros/s/AKfycbzO2qeJ6FQnwn9LMZhwMsa5gWl8CXsG612naNeMoX_aap4x9dOvSPdD2Nw_DWFHFMmI/exec'
+              const form = document.forms['Sheet']
+            
+              form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                  .then(response => alert("Thank You!!!! See YA Again"))
+                  .catch(error => console.error('Error!', error.message))
+              })
+   </script>
+   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+   <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script> 
+  </body>
+  </html>
